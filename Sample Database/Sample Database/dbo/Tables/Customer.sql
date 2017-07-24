@@ -5,7 +5,8 @@
     [City]      NVARCHAR (40) NULL,
     [Country]   NVARCHAR (40) NULL,
     [Phone]     NVARCHAR (20) NULL,
-    [Address]   NVARCHAR (50) NULL,
+    [Address] NVARCHAR(50) NULL, 
+    [PinCode] NVARCHAR(50) NULL, 
     CONSTRAINT [PK_CUSTOMER] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
